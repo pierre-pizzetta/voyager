@@ -41,6 +41,13 @@
         "psr-4": {
             "TCG\\Voyager\\Tests\\": "tests/"
       }
+    },    
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TCG\Voyager\VoyagerServiceProvider"
+            ]
+        }
     },
     "minimum-stability": "stable"
 }
